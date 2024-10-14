@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<style>
+ /*This changes the navigation from a list toa bar, and changes the link color when hovered*/
+.navbar {display: flex;
+    flex-direction: row;
+}
+     .navbar ul {
+        list-style-type: none;
+        background-color: #e68a8acb;
+        display: inline-block;
+        overflow: hidden;
+     }
+     .navbar a { text-decoration: none;
+        color:black
+        padding: 35px;
+        margin: none;
+        display: block;
+     }
+
+a:hover {
+    background-rgb(215, 110, 110)#e78080;
+ }
+ .navbar li{
+    float: center;
+    color:black
+ }
+        /* This makes the text go over the banner picture*/
+.container {  position: relative;
+    text-align: left;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.centered {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+ /*  Makes all body text the same font and size*/
+p { font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+/*I added a background color behind the opening paragraph & used the box method*/
+#opener { 
+    background-color: #e68a8acb;
+    padding: 20px;
+    border: none;
+    margin: 15px;
+    display: inline-block;
+}
+    h3 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+    h4{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ /* This puts the terms and definitions in their own boxes*/
+.definition {
+    background-color: lightgray;
+    width: 150px;
+    height: fit-content;
+    border: none;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 5px 5px;
+}
+.side li { 
+    text-align: right;
+    list-style-type: none;
+    background-color: lightgray;
+    display: inline-block;
+}
+ /* On the second page, this adds a color behind the food and exercise reccomendations*/
+ .instructions {
+    background-color: lightgray;
+    display: inline-block;
+ }
+  /* These separate all of the wellness techniques and rounds the corners, more defined*/
+ .n1 {
+    background-color: #e68a8acb ;
+    border-radius: 25px;
+    margin: 50px;
+    display: inline-block;
+ }
+ .n2 {
+    background-color: #e68a8acb ;
+    border-radius: 25px;
+    margin: 50px;
+    display: inline-block;
+ }
+ .n3 {
+    background-color: #e68a8acb ;
+    border-radius: 25px;
+    margin: 50px;
+    display: inline-block;
+ }
+ .n4 {
+    background-color: #e68a8acb ;
+    border-radius: 25px;
+    margin: 50px;
+    display: inline-block;
+ }
+ .form {
+    background-color: #e68a8a4f;
+ }
