@@ -1,7 +1,12 @@
+
+ /*This changes the navigation from a list to a bar, and changes the link color when hovered*/
 h1 {
    font-family: monospace;
    text-align: center;
 }
+body { font-size: medium;
+      margin:auto;}
+      
 header, ul {
    width: 100%;
    max-width: 1200px;
@@ -35,13 +40,36 @@ nav { background-color: #e68a8acb;
          color: white;
          font-weight: bold;}
 
-      body {margin: 0;
-   }
-.definition {
-    display: flex;
-    justify-content: space-between;
-   gap: 10px;
+   .defs {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+
+      
+  }
+  .defs div { background-color: rgba(227, 225, 225, 0.828);
+   align-items: center;
+   margin: 20px;
+   width: 100%;
+   padding: 10px;
+
+  }
+  .box {
+   flex: 1;
+   padding: 20px;
+   margin: 10;
+   border: solid #efeaea;
+   text-align: center;
 }
+main div {
+   background-color: #e7ffe;
+   border: 1px solid #e77e7ecb
+   border-radius: 10px;
+   margin-right: 1rem; 
+   align-content: center;
+}
+.list { text-decoration: dashed 
+   ;}
 
  li { 
    list-style-type: none;
@@ -61,7 +89,7 @@ nav { background-color: #e68a8acb;
          overflow: hidden;
      }
      .full-width-image {
-      width: 100%; /* Fills the height of the container */
+      width: 100%; 
       object-fit: cover;}
 
       .overlay {
@@ -91,39 +119,40 @@ nav { background-color: #e68a8acb;
    background-position: center;
 }
 
+.img3{ 
+   text-align: center;
+   display: block;
+}
+.img4 {text-align: right;
+display: block;
+}
  /*  Makes all body text the same font and size*/
 p { font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 /*I added a background color behind the opening paragraph & used the box method*/
 #opener { 
-    background-color: #e68a8acb;
-    padding: 20px;
-    border: none;
-    margin: 15px;
-    display: inline-block;
-    text-align: left;
+   display: flex
 }
-    h3 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+#opener div {
+   background-color: #e79c9cb3;
+   align-items: center;
+   margin: 20px;
+   width: 100%;
+   padding: 20px;
+  }
+  section div h4 { text-align: center;}
+   
+
+section div {
+   display: flex;
+}
+    h3 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      text-align: center;
     }
     h4{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
  /* This puts the terms and definitions in their own boxes*/
-.definition {
-    background-color: lightgray;
-    width: 150px;
-    height: fit-content;
-    border: none;
-    padding: 15px;
-    margin: 20px;
-    box-shadow: 5px 5px;
-}
-#def {
-   display: inline-block; 
-   width: 45%; 
-   margin: 10px; 
-   vertical-align: top; 
-}
 
 .side li { 
     text-align: right;
@@ -133,34 +162,43 @@ p { font-family: Arial, Helvetica, sans-serif;
 }
  /* On the second page, this adds a color behind the food and exercise reccomendations*/
  .instructions {
-    background-color: lightgray;
+    background-color: #edb6b643;
     display: inline-block;
+ }
+
+ main div p { 
+   display: inline-block;
+
+ }
+ div h2 { text-align: center;
+
  }
   /* These separate all of the wellness techniques and rounds the corners, more defined*/
  .n1 {
     background-color: #e68a8acb ;
-    border-radius: 25px;
     margin: 50px;
     display: inline-block;
  }
  .n2 {
     background-color: #e68a8acb ;
-    border-radius: 25px;
     margin: 50px;
     display: inline-block;
  }
  .n3 {
     background-color: #e68a8acb ;
-    border-radius: 25px;
     margin: 50px;
     display: inline-block;
  }
  .n4 {
     background-color: #e68a8acb ;
-    border-radius: 25px;
     margin: 50px;
     display: inline-block;
  }
  .form {
     background-color: #e68a8a4f;
+ }
+
+ .img3 {  display: block;
+   margin-left: auto;
+   margin-right: auto;
  }
