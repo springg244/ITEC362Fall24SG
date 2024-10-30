@@ -38,10 +38,9 @@ nav { background-color: #e68a8acb;
       body {margin: 0;
    }
 .definition {
-width: 100%;           
-padding: 20px;          
-box-sizing: border-box; 
-text-align: center;     
+    display: flex;
+    justify-content: space-between;
+   gap: 10px;
 }
 
  li { 
