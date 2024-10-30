@@ -18,6 +18,7 @@ nav { background-color: #e68a8acb;
     flex-direction: row;
     align-items: center;
     width: 100%;
+    object-fit: cover;
 }
  .navbar ul {
         list-style-type: none;
