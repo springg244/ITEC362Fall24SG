@@ -8,6 +8,7 @@ body { font-size: medium;
       
 header, ul {
    width: 100%;
+   max-width: 1200px;
    margin: 0;
 }
 nav { background-color: #e68a8acb;
@@ -16,13 +17,12 @@ nav { background-color: #e68a8acb;
     flex-direction: row;
     align-items: center;
     width: 100%;
-   box-sizing: border-box;
 }
  .navbar ul {
         list-style-type: none;
         display: inline-block;
+        overflow: hidden;
         text-align: center;
-    overflow: hidden;
      }
         li a:hover {
          background-color: #e77e7ecb;
