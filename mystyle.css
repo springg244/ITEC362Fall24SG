@@ -85,28 +85,28 @@ main div {
         .banner {
          position: relative; 
          width: 100%; 
-         height: 200px; 
-         overflow: hidden;
+         height: 200px; /* Sets a fixed height for the banner */
+         overflow: hidden;  /* Hides any content that overflows outside the banner */
      }
      .full-width-image {
       width: 100%; 
-      object-fit: cover;}
+      object-fit: cover;} /* Ensures the image maintains its aspect ratio*/
 
       .overlay {
-         position: absolute;
-         top: 0; 
+         position: absolute;  /* Positions the overlay relative to the .banner container */
+         top: 0; /* Aligns the overlay to the top of the banner */
          left: 0;
          width: 100%;
          height: 100%;
-         background-color: rgba(122, 160, 173, 0.754); 
-         z-index: 1; 
+         background-color: rgba(122, 160, 173, 0.754);  /* Adds a semi-transparent blue overlay*/
+         z-index: 1; /* Puts the overlay is behind the text but above the image */
      }
      .text {
       position: absolute;
-      top: 50%; 
+      top: 50%; /* Vertically centers the text in the banner */
       left: 50%; 
-      transform: translate(-50%, -50%); 
-      color: black; 
+      transform: translate(-50%, -50%); /* Offsets the text to perfectly align it to the center */
+      color: black; /* Text color */
       font-size: 30px; 
       font-weight: bold;
       text-align: center; 
@@ -154,7 +154,7 @@ section div {
 }
  /* This puts the terms and definitions in their own boxes*/
 
- /* On the second page, this adds a color behind the food and exercise reccomendations*/
+ /* On the second page, this adds a color behind the food and exercise recommendations*/
  .instruction {
    display: inline-flex;
    text-align: left;
@@ -165,11 +165,11 @@ section div {
    font-family: Arial, Helvetica, sans-serif;
    padding: 25px;
    margin: 15;
-   background-color: #edb6b643;
+   background-color: #edb6b643; /*Adds color behind the text*/
  }
 
 .plate {
-   float: right;
+   float: right; /*Poaitions the image to the right*/
    clear:both;
 
 }
