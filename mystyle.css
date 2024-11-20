@@ -16,7 +16,8 @@ nav { background-color: #e68a8acb;
 .navbar {display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 110vw;
+         margin: 0
 }
  .navbar ul {
         list-style-type: none;
