@@ -15,9 +15,8 @@ nav { background-color: #e68a8acb;
 }
 .navbar {display: flex;
     flex-direction: row;
-   justify-content: space-evenly;
     align-items: center;
-    width: 150%;
+    width: 100%;
 }
  .navbar ul {
         list-style-type: none;
