@@ -181,28 +181,7 @@ section div {
  div h2 { text-align: center;
 
  }
-  /* These separate all of the wellness techniques and rounds the corners, more defined*/
 
- .n1 {
-    background-color: #e68a8acb ;
-    margin: 50px;
-    display: inline-block;
- }
- .n2 {
-    background-color: #e68a8acb ;
-    margin: 50px;
-    display: inline-block;
- }
- .n3 {
-    background-color: #e68a8acb ;
-    margin: 50px;
-    display: inline-block;
- }
- .n4 {
-    background-color: #e68a8acb ;
-    margin: 50px;
-    display: inline-block;
- }
  #registration-form {
     background-color: #e68a8a4f;
     text-align: left;
