@@ -2,6 +2,7 @@
 h1 {
    font-family: monospace;
    text-align: center;
+   justify-content: center;
 }
 body { font-size: medium;
       margin:auto;}
@@ -16,7 +17,7 @@ nav { background-color: #e68a8acb;
 .navbar {display: flex;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 200%;
 }
  .navbar ul {
         list-style-type: none;
