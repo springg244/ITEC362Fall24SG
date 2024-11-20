@@ -21,7 +21,6 @@ nav { background-color: #e68a8acb;
  .navbar ul {
         list-style-type: none;
         display: inline-block;
-      overflow: hidden;
         text-align: center;
      }
         li a:hover {
