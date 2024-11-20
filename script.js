@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.getElementById("registration-form");
-    const usernameInput = document.getElementById("username");
+    const nameInput = document.getElementById("name");
     const emailInput = document.getElementById("email");
     const messageInput = document.getElementById("message");
     form.addEventListener("submit", function (event) {
     // Initialize an array to store error messages
     const errors = [];
-    // Validation for username (minimum length of 3 characters)
-    if (usernameInput.value.length < 3) {
-    errors.push("Username must be at least 3 characters long.");
+    // Validation for name (minimum length of 3 characters)
+    if (nameInput.value.length < 3) {
+    errors.push("Name must be at least 3 characters long.");
     }
     // Validation for email (must be a valid email format)
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
