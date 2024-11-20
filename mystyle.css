@@ -1,8 +1,7 @@
 /*This changes the navigation from a list to a bar, and changes the link color when hovered*/
 h1 {
    font-family: monospace;
-   text-align: center;
-   justify-content: center;
+   text-align: right;
 }
 body { font-size: medium;
       margin:auto;}
